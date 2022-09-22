@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner myInputs = new Scanner(System.in);
+
+        double usdDollars;
+        System.out.println("enter the amount(USD) you want to convert to ksh ");
+        usdDollars = myInputs.nextDouble();
+        double kenyanShillings;
+        kenyanShillings = 127.27 * usdDollars;
+        System.out.println("The amount in kenyan shillings is " + kenyanShillings);
+        System.out.println("thank you for using the system");
+    }
+
+}
